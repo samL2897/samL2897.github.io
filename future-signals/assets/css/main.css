@@ -15,6 +15,7 @@ a {
     bottom:0px;
     left:0px;
     padding:5px;
+    z-index: 9;
 }
 
 .nav-header {
@@ -28,6 +29,7 @@ a {
 	background-color:lime;
     color:black;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .title{
@@ -44,8 +46,8 @@ a {
 }
 
 .research-item {
-    flex:0 0 33.333%;
-    padding 
+    flex: 0 0 33.333%;
+    padding:10px; 
     font-size:16px;
     color:gray;
     transition: 2s;
@@ -63,3 +65,11 @@ a {
 	transition:2s;
 	cursor: zoom-out;
 }
+
+.hide {
+    filter:blur(100px);
+}
+
+ active{ 
+    background-color:red;
+ }

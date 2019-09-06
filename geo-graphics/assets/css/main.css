@@ -1,0 +1,109 @@
+body {
+	font-family: Helvetica,Arial,sans-serif;
+	font-size: 32px;
+}
+
+a {
+	color:red;
+}
+
+/* IP */
+
+
+
+
+.ip {
+	width:100vw;
+	height:100vh;
+    background-color:grey;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-wrap:wrap;
+
+}
+
+.ip-text {
+	font-size:10vw;
+	color:blue;
+}
+
+/* checkers */
+
+.checkers {
+    width:100vw;
+    height:100vh;
+    display:flex;
+
+}
+
+.checkers-black {
+    flex:0 0 50%;
+    height:50vh;
+    background-image:linear-gradient(red, yellow);
+}
+
+.checkers-white {
+	flex:0 0 50%;
+	height:50vh;
+	background-color: white;
+}
+
+/* checkers */
+
+.checkers-type {
+	width:100vw;
+	height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    position: fixed;
+    top:0;
+    left:0;
+}
+
+.checkers-text {
+	font: 20vw;
+	color:lime;
+	padding: 5vw;
+}
+/* user */
+
+
+.user {
+	width:100vw;
+	height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background-color: lightgray;
+}
+
+.avatar {
+	width:25vw;
+	height:25vw;
+	background-color:purple;
+	display: flex;
+	align-items: center;
+	background-color: red;
+}
+
+.letter {
+	font-size:10vw;
+    color:green;
+}
+
+
+
+/*terra tv*/
+
+.terra-tv {
+	background-color: cyan;
+	height: 100vh;
+}
+
+
+
+
+
+
