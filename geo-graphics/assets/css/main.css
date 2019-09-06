@@ -99,6 +99,7 @@ a {
 
 .barcode {
 	height: 100vh;
+	width:100vw;
 }
 
 .barcode img {
