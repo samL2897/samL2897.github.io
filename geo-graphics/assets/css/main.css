@@ -95,12 +95,17 @@ a {
 
 
 
-/*terra tv*/
+/*barcode*/
 
-.terra-tv {
-	background-color: cyan;
+.barcode {
 	height: 100vh;
 }
+
+.barcode img {
+	width:100%;
+	height: 100%;
+}
+
 
 
 
